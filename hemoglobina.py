@@ -22,4 +22,6 @@ if genero == 1 or genero == 2:
         elif homo  > 15.0:
             print(f'Alerta 2')
 else:
+    # Si el genero es diferente a masculino o femenino, es decir si no es 1 o 2
+    # el programa me arrojara un mensaje por consola y el programa terminara
     print(f'No es posible generar la alerta')
