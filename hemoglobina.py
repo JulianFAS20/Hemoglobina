@@ -1,3 +1,4 @@
+# Esta variable representa la hemoglobina
 homo = float(input())
 genero = int(input())
 
