@@ -2,6 +2,7 @@ homo = float(input())
 genero = int(input())
 
 if genero == 1 or genero == 2:
+    #si el genero es 1: se encarga de mostrar las alertas masculinas de lo contrario muestras las femeninas
     if genero == 1:
         if homo  <  13.2:
             print(f'Alerta 1')
