@@ -4,8 +4,9 @@ homo = float(input())
 #1 : masculino 2:femenino
 genero = int(input())
 
+# Este if se encarga de valida que el genero
+# que sea femenimo o masculino
 if genero == 1 or genero == 2:
-    
     if genero == 1:
         if homo  <  13.2:
             print(f'Alerta 1')
